@@ -1,0 +1,526 @@
+#include<iostream>
+using namespace std;
+int add(int a,int b){
+    return a+b;
+}
+int main(){
+    //  C++ is a programming language developed by Bjarne Stroustrup in 1983. It is an extension of C and supports object-oriented programming.
+
+    // datatype variable_name;
+    // int age;
+
+    // int a = 5, b=3;
+    // cout << a + b;
+
+
+    // It tells the operating system that the program has executed successfully.
+
+    // int num;
+    // cout<<"Enter a number";
+    // cin >> num;
+    // cout <<"You enter :"<<num;
+
+    // int x = 10;
+    // int y = 20;
+    // cout <<"sum: "<<x + y;
+
+
+    /* This is
+   a multi-line
+   comment */
+
+//    int num= 7;
+//    cout <<"Square :"<< num* num;
+
+
+// int - Stores integers (e.g., 5, -2)
+// float - Stores decimal numbers (e.g., 3.14)
+// char - Stores single characters (e.g., 'A')
+// bool - Stores true or false
+// double - Stores large decimal numbers
+
+
+// int num;
+// cout<<"enter a number ";
+// cin >>num;
+
+// if(num>0){
+//     cout<<"positive number ";
+
+// }
+// else{
+//     cout<<"negative number";
+
+// }
+
+
+// cout<<"hello world";
+
+// int a = 10, b =4;
+// cout <<"subtraction : "<< a- b;
+
+
+// It includes the Input/Output Stream library, which allows us to use cin and cout.
+
+// int x =6,y =3;
+// cout <<"Multiplication "<<x * y;
+
+// cout <<"Line 1" <<endl;
+// cout <<"Line 2"<<endl;
+
+
+// int num = 10;
+// cout <<"Number is : "<< num;
+
+// int a = 10,b =2;
+// cout <<"Division "<<a / b;
+
+// const int PI= 3.14;
+
+// for(int i=0;i<=5;i++){
+//     cout << i <<" ";
+
+// }
+
+// int num ;
+// cout <<"Enter the number ";
+// cin >>num;
+
+// if(num % 2 ==0)
+// {
+//     cout <<"Even ";
+//     }
+//     else{
+//         cout <<"Odd number ";
+//     }
+
+
+// int a= 10,b =3;
+// cout <<"Remainder is :"<< a%b;
+
+// int x;
+// cin >>x;
+
+
+// int i =1;
+// while(i<=5){
+//     cout << i <<" ";
+//     i++;
+// }
+
+// int num;
+// cout <<"Enter a number :";
+// cin>> num;
+
+// if(num >0){
+//     cout <<"Positive ";
+
+// }
+// else if(num < 0){
+//     cout <<"Negative ";
+// }
+// else{
+//     cout <<"Zero ";
+// }
+
+// int i =1;
+// do{
+//     cout << i <<" ";
+//     i++;
+// }
+// while(i<= 3);
+
+// char letter = 'A';
+// cout <<"The character is :"<<letter;
+
+// int x = 5;
+// cout << x * x;
+
+// int a =1,b=2,c=3;
+
+// int a =5, b=10,temp;
+// cout <<"Before swapping a= "<<a << ", b= " <<b <<endl;
+
+
+// temp = a;
+// a= b;
+// b = temp;
+
+// cout <<"After swaping "<<a << " "<< b ;
+
+// int a =3, b= 4;
+// cout <<"Product : "<< a*b<< endl;
+
+// int length = 5, width = 4;
+// cout <<"Area of Reactangle "<< length * width;
+
+// int num = 8;
+// cout <<"half :"<<num/2;
+
+
+// int num;
+// cout <<"Enter a number ";
+// cin >>num;
+// if(num >0 && num % 2 ==0)
+// {
+//     cout <<"The number is positive and even. ";
+
+// }
+// else{
+//     cout <<"The condition is not satisfied.";
+// }
+
+// char ch = 'A';
+// cout <<"ASCII value of : "<< ch <<" is "<<int(ch);
+
+// int arr[5]={1,2,3,4,5};
+// cout <<"Array element are :";
+
+// for(int i=0;i<5;i++){
+//     cout <<arr[i]<<" ";
+// // }
+
+// int x =5, y=10;
+// cout <<"sum :"<<add(x,y);
+
+
+// for(int i=1;i<=5;i++){
+//     if(i==3){
+//         break;
+//     }
+//     cout << i<<" ";
+// }
+
+
+// int num=4,factorial = 1;
+
+// for(int i=1;i<=num;i++){
+//     factorial*=i;
+// }
+// cout <<"factorial :"<<factorial;
+
+// int choice;
+// cout <<"Enter a number (1-3)";
+// cin >>choice;
+
+// switch(choice){
+//     case 1:
+//     cout <<"You chose 1";
+//     break;
+
+//       case 2:
+//     cout <<"You chose 2";
+//     break;
+
+//       case 3:
+//     cout <<"You chose 3";
+//     break;
+
+//     default:
+//     cout <<"Invalid choice";
+// }
+
+
+// cout <<"Hello ,World!";
+
+// int a=5,b=10;
+// cout <<"Sum "<<a + b;
+
+// int x;
+// cout <<"Enter a number ";
+// cin >> x;
+// cout <<"You enter : "<<x;
+
+// int a = 3, b=4;
+// cout <<"Product :"<< a*b <<endl;
+
+// int num;
+// cout <<"Enter a number ";
+// cin >> num;
+// if(num%2==0){
+//     cout <<"Even ";
+// }
+// else{
+//     cout <<"Odd";
+// }
+
+// float radius ,area;
+// cout <<"Enter radius ";
+// cin >> radius;
+
+// area = 3.14* radius * radius;
+// cout <<"Area :"<<area ;
+
+// int a,b;
+// cout <<"Enter two number :";
+// cin >> a >> b;
+// if(a > b){
+//     cout << a <<" is greater ";
+// }
+// else{
+//     cout <<b <<" is greater";
+// }
+
+// for(int i=1;i<=5;i++){
+//     cout << i <<" ";
+// }
+
+// int i=1;
+// while(i <= 5){
+//     cout << i <<" ";
+//     i++;
+// }
+
+
+// int n,sum=0;
+// cin>>n;
+// for(int i=1;i<=n;i++){
+//     sum =sum+i;
+// }
+// cout <<"sum is :"<<sum<<endl;
+
+
+// int a ,b ,c;
+// cout <<"Enter three number ";
+// cin >> a >> b >> c;
+// if(a >b && a >c){
+//     cout <<a <<"is the largest ";
+// }
+// else if(b > c && b >a ){
+//     cout <<b <<"is greater";
+// }
+// else{
+//     cout <<c <<"is greater ";
+// }
+
+// int num ;
+// cout <<"Enter a number ";
+// cin >>num;
+// for(int i=1;i<=10;i++)
+// {
+//     cout << num <<" x " << i<<" = "<<num*i<<endl;
+// }
+
+// int num,reverse=0,remainder;
+// cout <<"Enter a number ";
+
+// cin >> num;
+
+// while(num!=0){
+//     remainder= num%10;
+//     reverse= reverse*10+remainder;
+//     num=num/10;
+// }
+// cout <<"reversed number is "<<reverse<<endl;
+
+// int num,reverse=0,remainder;
+// cout <<"Enter a number ";
+
+// cin >> num;
+
+// while(num!=0){
+//     remainder= num%10;
+//     reverse= reverse*10+remainder;
+//     num=num/10;
+// }
+// cout <<"reversed number is "<<reverse<<endl;
+
+// cout <<"I love programming :";
+
+// cout << 10 + 20;
+
+
+// int num = 4;
+// cout <<"Square :"<< num* num<< endl;
+
+// for(int i=1;i<=5;i++){
+//     cout << i <<" ";
+// }
+
+// int num =15;
+// if(num > 10){
+//     cout <<"Grerater than 10";
+// }
+// else{
+//     cout <<"Not greater than 10 ";
+// }
+
+
+// cout <<"Product : "<< 5*5;
+
+// cout <<"Reaminder "<< 17 %3;
+
+
+// int num = 7;
+// if(num > 0){
+//     cout <<"positive ";
+
+// }
+// else{
+//     cout <<"Negative ";
+// }
+
+
+// cout <<"sum :"<< 1 + 2 + 3;
+
+// cout <<"My name is Ayush ";
+
+// int a = 8, b = 12;
+// cout <<"Average of "<<(a+ b )/2;
+
+// for(int i= 1;i<=10;i++){
+//     if(i%2 !=0){
+//         cout <<i <<" ";
+//     }
+// }
+
+
+// int num ;
+// num = 6;
+// cout <<"Double "<< num* 2;
+
+
+// int num = 0;
+// if(num == 0){
+//     cout <<"Zero ";
+
+// }
+// else{
+//     cout <<"Not zero ";
+// }
+
+
+// // for(int i =1;i<=5;i++){
+// //     cout <<"*";
+// // }
+
+// int a= 20 , b= 4;
+// cout <<"Quetioan :"<< a/b ;
+
+// int a = 5, b =8;
+// if(a < b){
+//     cout << b;
+// }else{
+//     cout <<b
+// ;}
+
+// for(int i=1;i<= 5;i++){
+//     cout <<i <<" ";
+// }
+
+// int num =3;
+// cout <<"cube "<<num*num*num;
+
+// int a =7,b=7;
+// if(a==b){
+//     cout <<"Equal";
+// }else{
+//     cout <<"not equal";
+// }
+
+// char letter='A';
+// cout <<"the letter is: "<<letter;
+
+// for(int i=5;i>=1;i--){
+//     cout <<i <<" ";
+// }
+
+// int a =10, b=4;
+// cout <<"Difference :"<< a - b;
+
+// int num = 15;
+// if(num % 5 ==0){
+//     cout <<"Divisible by 5 ";
+// }
+// else{
+//     cout <<"not divisible by 5";
+// }
+
+
+// cout <<"*\n**\n***\n";
+
+// int a = 3, b=7,c = 10;
+// cout <<"Sum : "<< a+b+c;
+
+// char ch ='e';
+// if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//     cout <<"Vowel";
+// }else{
+//     cout <<"Not a vowel";
+// // }
+
+// // float p = 100,r = 5 , t=2;
+// // cout <<"simple Intrest "<<(p*r*t)/100;
+
+// int age = 20;
+// // cout <<"i am "<<age<< " years old."; 
+
+// int side = 4;
+// cout <<"Perimeter :"<< 4*side ;
+
+
+// int a = 5, b=10,temp;
+// temp = a;
+// a = b;
+// b =temp;
+// cout <<a << " "<<b;
+
+// int sum = 0;
+// for(int i = 1;i<=10;i++){
+//     if(i%2==0){
+//         sum = sum +i;
+//     }
+// }
+
+// cout <<"sum: "<< sum ;
+
+
+// for(int i =1;i<=5;i++){
+//     cout <<"Hello \n";
+// }
+
+
+// int num = 7;
+// if(num % 2 ==0){
+//     cout <<"Even";
+// }else{
+//     cout <<"odd";
+// }
+
+// int length = 6,width = 4;
+// cout <<"Area :"<<length*width;
+
+
+// int num = 3;
+// for(int i=1;i<=10;i++){
+//     cout <<num <<"x"<<i <<" = "<< num *i <<endl;
+// }
+
+// int num =5,fact = 1;
+// for(int i=1;i<=num;i++){
+//     fact= fact*i;
+// }
+// cout <<fact;
+
+// int a =10,b=20,c=30,d=40,e=50;
+// cout <<"Average "<<(a+b+c+d+e)/5;
+
+// char ch ='G';
+// if(ch >='A' && ch<= 'Z'){
+//     cout <<"Uppercase";
+// }
+// else{
+//     cout <<"not uppercase";
+// }
+
+int a = 5,b = 12,c = 9;
+if(a > b && a > c){
+    cout << a ;
+}
+else if(b >a && b > c){
+    cout <<b;
+}
+else{
+    cout <<c;
+}
+}
