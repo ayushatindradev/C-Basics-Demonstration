@@ -1,1 +1,134 @@
+// 1. What are the key features of C++?
+// C++ is an object - orented , compiled , statically typed, and multi- paradigm programming language.
+// key features
+// 1.OOPS concepts(Encapusation , inheritance , polymophism,Abstraction)
+// 2. Memory Managment (Manual Alocation , using new and delete ).
+// 3.STL(standared Template Library)
+// 4.Operator overloading.
+// 5. Exception handling.
+// 6. Template programming.
+// 7. Multithreading.
 
+// 2. What is the difference between a class and a struct in C++?
+// Struct: Member are public by default
+// Class : member are private by default
+// 3. Explain the four pillars of Object-Oriented Programming (OOP) in C++.
+// 1.Encapusation : wrapping data and method together in a class.
+// 2 Abstraction : Hidding complex details ams exposing only necessary parts 
+// 3.Inheritance: acuaring properties of a base class.
+// 4.Polymorphism : Function / method behaves diffrent in different senerious.
+
+
+#include <iostream>
+#include<memory>
+using namespace std;
+struct MyStruct{
+    int x; // public by default
+};
+ 
+// class MyClass{
+//     int x; // private by default
+// // };
+// class Car{
+//     private:
+//     string brand;
+//     public:
+//     void setBrand(string b){
+//         brand = b;
+//     }
+//     string getBrand(){
+//         return brand;
+//     }
+//     };
+
+//     class SportsCar : public Car {
+//         public:
+//             void show() { cout << "This is a sports car!" << endl;
+//              }
+//         };
+//         // polymorphism 
+//         class Shape{
+//             public:
+
+//         };
+
+// class Shape{
+//     public:
+//     void draw(){
+//         cout << "Drawing shape" << endl;
+//     }
+// };
+// class Circle: public Shape{
+//     public:
+//     void draw() override{
+//         cout << "Drawing circle" << endl;
+        
+//     }
+// };
+        
+class Base{
+    public:
+    virtual void show(){
+        cout<<"Base class"<<endl;
+    }
+
+};
+class Derived : public Base{
+    public :
+    void show() override{
+        cout<<"Derived class"<<endl;
+    }
+};
+class FileHandler{
+    public:
+    FileHandler(){
+        cout<<"FileHandler"<<endl;
+    }
+    ~FileHandler(){
+        cout<<"FileHandler closed"<<endl;
+    }
+};
+int main(){
+    MyStruct s;
+    s.x = 10;
+
+    // MyClass c;
+    // c.x = 10; // error : private member
+
+    // return 0; 
+    // 4. What is the difference between compile-time and run-time polymorphism?
+
+    // compiled time polymorphism -> Function verloading and operator overloading.
+    // run time polymorphism-> Achieved using virtual function.
+//     5. What is a virtual function, and why do we use it?
+// A virtial function allows function overriding in derived classes.
+
+// 6. What is the difference between deep copy and shallow copy?
+
+// shallow copy -> copies only the memory address(problemmatic for dynamic memory).
+// deep copy-> Copies the actula object data (allocates new memoy);
+// // }
+// 7. What is the "diamond problem" in C++, and how do you solve it?
+// The diamond problme occurs in multiple inheritance when two parent class inherits the same base class
+// // 8. Explain smart pointers in C++ (unique_ptr, shared_ptr, weak_ptr).
+// Smart pointer automate memory managment and avoid memory leaks.
+// unique_ptr<int> p1= make_unique<int>(10);
+// cout<<*p1<<endl;
+
+// unique_ptr<int> p2=make_unique<int>(20);
+// cout<<*p2<<endl; 
+
+// 9. What is RAII (Resource Acquisition Is Initialization)?
+// RAII ensurres deallocation automatically when an object goes out of scope.
+// // FileHandler f;
+// // 10. What is the difference between new/delete and malloc/free?
+// new/delete->Calls the constructor /dstructor.
+// maccloc/free->only allocates and declocates memory.
+// int* p= new int(10);
+// delete p;
+
+// int* q= new int(20);
+// free(q);
+
+
+}
